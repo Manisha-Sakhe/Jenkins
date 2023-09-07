@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<listeners>
+ 	 <listener class-name="JenkinsDemo.JenkinsDemo.Listner">
+	  </listener>
+</listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="JenkinsDemo.JenkinsDemo.ListnersNewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
